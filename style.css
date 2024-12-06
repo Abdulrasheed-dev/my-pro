@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg,blue,brown,aqua);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+ .aaa{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: -80px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7px;
+}
+
+nav ul{
+    background-color: rgb(0, 255, 115);
+    list-style-type: none;
+    margin: 0%;
+    overflow: hidden;
+    height: 50px;
+}
+nav ul li{
+    float: left;
+    margin-left: 80px;
+} 
+
+ nav ul li a{
+    display: block;
+    padding: 7px;
+    color: black;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-size: 17px;
+    font-family: monospace; transition: 2s;
+    text-decoration: none;
+   
+}
+
+nav ul li:hover a{
+    border-bottom: 2px solid brown;
+    color: blue;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bbb{
+    font-size: 70px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.dev{
+    color: brown;
+    font-size: 80px;
+}
+
+button{
+    color:white;
+    font-size: 17PX;
+    width: 150PX;
+    background-color: brown;
+    padding: 10PX;
+    margin-top: 10PX;
+    border-radius: 10PX;
+    border: none;
+}
+
+button:hover{
+    background-color: WHITE;
+    color:aqua ;
+   margin-top: 30px;
+   left: 30px;
+}
+div{
+    position: absolute;
+    left: 60%;
+    top: 100px;
+    background:rgba(237, 244, 245, 0.671) ;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px -3px 15px black,-3px 3px 15px black;
+    justify-content: center;
+    text-align: center;
+    height: 330px;
+
+}
+
+h2{
+    background-color: rgba(223, 11, 11, 0.671);
+    text-align: center;
+    border-radius: 5px ;
+    width: 310px ;
+}
+
+h3{
+    background-color: brown;
+    text-align: center;
+    border-radius: 10px;
+    width: 150PX;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    left: 80px;
+    bottom: 15px
+}
+
+.don{
+    color:aqua;
+    font-size: 25px;
+    text-shadow: 3px -3px 10px black;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 40px;
+}
+ .pl{
+    border: none;
+    outline: none;
+    margin-top: 17px;
+    border-bottom: 3px solid brown;
+    border-radius: 8px;
+    background: none;
+    width: 300px;
+    margin-left: 5px;
+    box-shadow: 2px -2px 15px aqua;
+ }
+
+ .btn{
+    color: white;
+    background-color: brown;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+ }
+
+ .btn:hover{
+    background-color: rgba(0, 255, 255, 0.075);
+ }
+
+ .sea{
+    margin-top: 17px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100PX;
+    font-size: 20PX;
+    margin-right: 35PX;
+    transition: .8s ease-in-out;
+ }
+
+ .sea:hover{
+    width: 200px;
+ }
+
+ .mee{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    width: 60px;
+ }
+
+ .ab{
+    color: blue;
+    text-shadow: 3px -2px 13px black;
+    text-align: center;
+    margin-top: 20px;
+    overflow: visible;
+}
+
+.pre{
+color: indigo;
+background-color: rgba(161, 181, 190, 0.644);
+font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+position: absolute;
+top:400px;
+left: 40px;
+border-radius: 10px;
+overflow: visible;
+}
+
+.pre:hover{
+    border-bottom: 3px solid;
+    box-shadow: 3px 3px 13px blue;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    margin-left: 740px;
+    margin-top: -20px;
+}
+
+.hel{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fro{
+    text-align: center;
+    justify-content: center;
+    font-size:40px ;
+    margin-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 3px white;
+}
+
+.lor{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.vid{
+    position: absolute;
+    top: 400px;
+    margin-left: -930px;
+    width: 1544px;
+    background-color: rgba(196, 206, 207, 0.363);
+
+}
+
+.ak{
+    color: rgb(0, 0, 0);
+    width: 80px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    overflow: hidden;
+}
+
+.ak{
+    float: left;
+}
+
+.ipo{
+    margin-top: 25px;
+    position: absolute;
+    left: 15px;
+    text-shadow: 2px -2px 9px rgba(0, 255, 255, 0.438);
+
+} 
